@@ -1,0 +1,10 @@
+EVALUATION: 
+1. Models are tested using accuracy, precision, recall, and F1-score.  
+2. MLP achieved the highest accuracy (~81%) and was selected as the 
+final model.  
+3. CNN achieved ~80.5% accuracy but required more computational 
+power.  
+4. RNN with LSTM performed poorly (~2.25% accuracy) and was not 
+considered.  
+5. The selected MLP model is deployed for real-time disease 
+prediction.
