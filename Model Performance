@@ -1,0 +1,15 @@
+Model Performance Summary:
+
+After training and evaluating the Multi-Layer Perceptron (MLP), Convolutional Neural Network (CNN), and Recurrent Neural Network (RNN) with LSTM models on the dataset, the following results were observed:
+
+Multi-Layer Perceptron (MLP):
+
+The MLP model showed strong performance, with a training accuracy of 100% and a test accuracy of 81%. This indicates that the model was able to learn the patterns in the training data effectively and generalize relatively well to unseen data. The model's loss was also low, making it the best performer among the models tested.
+
+Convolutional Neural Network (CNN):
+
+The CNN model performed well with a test accuracy of approximately 80.5%. Although the training accuracy was high, the model experienced a higher loss during testing, suggesting that while it captured some patterns in the data, it wasn't as effective as the MLP in generalizing to new examples.
+
+Recurrent Neural Network (RNN) with LSTM:
+
+The LSTM model was modified several times to improve its performance. Despite these modifications, the LSTM performed poorly, with a test accuracy of only 2.25% and a high test loss. This suggests that the LSTM struggled to learn meaningful patterns from the data, likely due to the nature of the dataset, which may not be well-suited for a sequential model like LSTM.
