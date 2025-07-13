@@ -1,0 +1,11 @@
+MODEL TRAINING: 
+1. The dataset, containing symptoms and corresponding diseases, is 
+split into training and testing sets.  
+2. Three machine learning models are trained:  
+ Multi-Layer Perceptron (MLP) 
+ Convolutional Neural Network (CNN) 
+ Recurrent Neural Network (RNN) with LSTM 
+3. Each model learns patterns between symptoms and diseases to 
+make accurate predictions.  
+4. Hyperparameters like learning rate, number of layers, and activation 
+functions are adjusted to improve performance.
