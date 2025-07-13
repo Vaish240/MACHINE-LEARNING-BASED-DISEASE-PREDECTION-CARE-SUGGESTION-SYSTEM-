@@ -1,0 +1,9 @@
+INFERENCE: 
+• Machine learning can predict diseases based on symptom patterns 
+with reasonable accuracy.  
+• MLP is the most effective model for this dataset, achieving ~81% 
+accuracy.  
+• CNN is slightly less accurate (~80.5%) but computationally 
+expensive, making it less practical for deployment.  
+• RNN with LSTM is not suitable for this type of data, as it performed 
+poorly (~2.25% accuracy). 
